@@ -1,0 +1,122 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253); *   
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+html, body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* Start of Navbar and Front page*/
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    margin: 0;
+    max-width: none;
+    /*position: absolute;*/
+    background-image: url(top.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: hue;
+    }
+.row {
+    justify-content: center;
+     margin-left: 50%;
+     margin-right: 50%;
+     
+}
+.navbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: whitesmoke;
+      position: relative;
+      height: 75px;
+     border: 1px solid black;
+     border-radius: 10px;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+@media(max-width:550px){
+    .navbar ul li a{
+        font-size: 10px;
+    }
+}
+.navbar ul{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px; 
+    justify-content: center;
+}
+.navbar ul li{
+   display: inline-block;
+   justify-content: center;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000;
+    justify-content: center;
+    
+}
+.navbar ul li a:hover{
+    background-color: rgba(218, 218, 218, 0.911);
+    border-radius: 8px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    border-left: 5px solid rgb(0, 0, 0) ;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name h1{
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 3px 3px 5px rgb(44, 40, 40);
+}
+/* END of Navbar and Front page*/
+/* Start of about section*/
+.box1 h2{
+    font-size: 2em;
+    z-index: -1;
+}
+.box1{
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.box1 h4{
+         color: grey;
+         
+}
+.para1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 50px;
+    margin-left: 50px;
+    border-left: 2px solid orange;
+    padding-left: 15px;
+}
+#about{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+}
+/*End of About section*/
